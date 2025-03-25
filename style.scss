@@ -1,0 +1,71 @@
+$primary-color: #10a65b;
+
+ * {
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+ 
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.team {
+    margin: 0 20px;
+}
+
+.team-info {
+    margin-bottom: 20px;
+}
+
+.player {
+    margin: 10px 0;
+}
+
+.player-input {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.score-buttons button,
+.player button {
+    margin: 5px;
+}
+
+#log {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: $primary-color;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: orange;
+}
+
+.display-none {
+    display: none;
+}
+
+
+

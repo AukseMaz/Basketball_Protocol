@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Krepšinio varžybų protokolas</title>
+</head>
+
+<body>
+    <h1>Krepšinio varžybų protokolas</h1>
+    <!-- <div></div> -->
+        <div class="game-container">
+            <div class="team">
+                <h2>Komanda 1</h2>
+                <div class="team-info">
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 1" class="player-input">
+                        <span id="fouls-team1-player1">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="1" data-team="1">+ Pražanga</button>
+                    </div>
+                
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 2" class="player-input">
+                        <span id="fouls-team1-player2">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="2" data-team="1">+ Pražanga</button>
+                    </div>
+
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 3" class="player-input">
+                        <span id="fouls-team1-player3">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="3" data-team="1">+ Pražanga</button>
+                    </div>
+                </div>
+            
+                <div class="score-buttons">
+                    <button class="add-points" data-points="1" data-team="1">+ 1</button>
+                    <button class="add-points" data-points="2" data-team="1">+ 2</button>
+                    <button class="add-points" data-points="3" data-team="1">+ 3</button>
+                </div>
+            </div>
+
+            <div class="team">
+                <h2>Komanda 2</h2>
+                <div class="team-info">
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 1" class="player-input">
+                        <span id="fouls-team2-player1">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="1" data-team="2">+ Pražanga</button>
+                    </div>
+                
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 2" class="player-input">
+                        <span id="fouls-team2-player2">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="2" data-team="2">+ Pražanga</button>
+                    </div>
+
+                    <div class="player">
+                        <input type="text" placeholder="Žaidėjas 3" class="player-input">
+                        <span id="fouls-team2-player3">Pražangos: 0</span></p>
+                        <button class="add-foul" data-player="3" data-team="2">+ Pražanga</button>
+                    </div>
+                </div>
+         
+                <div class="score-buttons">
+                    <button class="add-points" data-points="1" data-team="2">+ 1</button>
+                    <button class="add-points" data-points="2" data-team="2">+ 2</button>
+                    <button class="add-points" data-points="3" data-team="2">+ 3</button>
+                </div>
+            </div> 
+        </div>
+
+    <h3>Įrašai:</h3>
+    <div id="log"></div>
+ 
+    <button id="end-quarter">Baigti kėlinį</button>
+    <button id="restart">Pradėti iš naujo</button>
+
+</body>
+
+</html>
+
